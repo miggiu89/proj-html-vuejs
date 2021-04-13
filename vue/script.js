@@ -11,5 +11,7 @@ let app = new Vue ({
         'contact'
       ],
       /* / header e footer*/
-    }
+    
+    
+  },
 })

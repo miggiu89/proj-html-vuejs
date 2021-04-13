@@ -210,4 +210,90 @@
     margin-top: 20px;
   }
   /* / first section */
-  
+
+   /* second section */
+#about{
+  width: 100%;
+  height: 850px;
+  padding-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .left{
+  flex-basis: 60%;
+  height: 80%;
+  background-image: url('../img/business-people-working-together-on-project-and-5FHSKBL.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about .right{
+  flex-basis: 40%;
+  height: 80%;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#about .right .info-box{
+  color: #fff;
+}
+
+#about .right .info-box span{
+  text-transform: uppercase;
+}
+
+#about .right .info-box span:first-of-type{
+  width: 60px;
+  height: 3px;
+  margin-right: 20px;
+  border-bottom: 3px solid #39ffbf;
+  display: inline-block;
+}
+
+#about .right .info-box h2{
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+#about .bottom{
+  height: 20%;
+  flex-basis: 100%;
+  background-color: #39ffbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#about .bottom h2{
+  flex-basis: 20%;
+}
+
+#about .bottom p{
+  flex-basis: 25%;
+  margin-left: 20%;
+  font-size: 12px;
+}
+
+#about .bottom .button{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 20px 40px;
+  background-color: #f81d39;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#about .bottom .button:hover{
+  border: 3px solid black;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;  
+}
+/* / second section */
+
