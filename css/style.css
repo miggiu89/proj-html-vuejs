@@ -142,7 +142,7 @@
   
   .jumbo-content .button:hover{
     padding: 16px 0;
-    border: 4px solid black;
+    border: 1px solid black;
     background-color: #f00e2e;
     color: #fff;
     transition-duration: 0.1s;
@@ -291,7 +291,7 @@
 }
 
 #about .bottom .button:hover{
-  border: 3px solid black;
+  border: 1px solid black;
   transition-duration: 0.1s;
   transition-timing-function: linear;  
 }
@@ -362,7 +362,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 10px solid black;
+  border: 1px solid black;
   text-transform: none;
   display: flex;
   justify-content: space-between;
