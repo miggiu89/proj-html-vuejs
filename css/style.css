@@ -18,6 +18,22 @@
   p{
     line-height: 1.6;
   }
+
+  .flex{
+    display: flex;
+  }
+
+  .relative{
+    position: relative;
+  }
+
+  .absolute{
+    position: absolute;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
   /* / generali */
   
   body{
@@ -49,15 +65,12 @@
   .container{
     width: 90%;
     height: 100%;
-    position: relative;
     margin: auto;
   }
   
   .container nav{
     width: 100%;
     height: 90px;
-    position: absolute;
-    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -72,7 +85,6 @@
   
   nav .nav-right{
     height: 100%;
-    display: flex;
     justify-content: right;
     align-items: center;
   }
@@ -101,14 +113,12 @@
   .container .jumbo{
     width: 100%;
     height: calc(750px - 90px);
-    position: absolute;
     bottom: 0;
     color: #fff;
     text-transform: uppercase;
   }
   
   .jumbo .jumbo-content{
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -137,7 +147,6 @@
     background-color: #39ffbf;
     color: black;
     display: inline-block;
-    cursor: pointer;
   }
   
   .jumbo-content .button:hover{
@@ -157,7 +166,6 @@
     margin-left: 40px;
     border: 2px solid white;
     border-radius: 50%;
-    cursor: pointer;
   }
   /* / header */
 
@@ -166,14 +174,12 @@
 #consultants{
     padding: 80px 0 100px 200px;
     background-color: #fff;
-    display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
   
   #consultants .title{
     flex-basis: 100%;
-    display: flex;
     align-items: center;
   }
   
@@ -191,7 +197,6 @@
   #consultants .info-box{
     margin-top: 80px;
     flex-basis: 50%;
-    display: flex;
   }
   
   #consultants .image-box{
@@ -212,89 +217,84 @@
   /* / first section */
 
    /* second section */
-#about{
-  width: 100%;
-  height: 850px;
-  padding-right: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#about .left{
-  flex-basis: 60%;
-  height: 80%;
-  background-image: url('../img/business-people-working-together-on-project-and-5FHSKBL.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#about .right{
-  flex-basis: 40%;
-  height: 80%;
-  padding-left: 40px;
-  display: flex;
-  align-items: center;
-}
-
-#about .right .info-box{
-  color: #fff;
-}
-
-#about .right .info-box span{
-  text-transform: uppercase;
-}
-
-#about .right .info-box span:first-of-type{
-  width: 60px;
-  height: 3px;
-  margin-right: 20px;
-  border-bottom: 3px solid #39ffbf;
-  display: inline-block;
-}
-
-#about .right .info-box h2{
-  text-transform: uppercase;
-  margin: 20px 0;
-  font-size: 40px;
-}
-
-#about .bottom{
-  height: 20%;
-  flex-basis: 100%;
-  background-color: #39ffbf;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-#about .bottom h2{
-  flex-basis: 20%;
-}
-
-#about .bottom p{
-  flex-basis: 25%;
-  margin-left: 20%;
-  font-size: 12px;
-}
-
-#about .bottom .button{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 20px 40px;
-  background-color: #f81d39;
-  color: white;
-  text-transform: uppercase;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-#about .bottom .button:hover{
-  border: 1px solid black;
-  transition-duration: 0.1s;
-  transition-timing-function: linear;  
-}
+   #about{
+    width: 100%;
+    height: 850px;
+    padding-right: 5%;
+    flex-wrap: wrap;
+  }
+  
+  #about .left{
+    flex-basis: 60%;
+    height: 80%;
+    background-image: url('../img/business-people-working-together-on-project-and-5FHSKBL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #about .right{
+    flex-basis: 40%;
+    height: 80%;
+    padding-left: 40px;
+    align-items: center;
+  }
+  
+  #about .right .info-box{
+    color: #fff;
+  }
+  
+  #about .right .info-box span{
+    text-transform: uppercase;
+  }
+  
+  #about .right .info-box span:first-of-type{
+    width: 60px;
+    height: 3px;
+    margin-right: 20px;
+    border-bottom: 3px solid #39ffbf;
+    display: inline-block;
+  }
+  
+  #about .right .info-box h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 40px;
+  }
+  
+  #about .bottom{
+    height: 20%;
+    flex-basis: 100%;
+    background-color: #35ffbf;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about .bottom h2{
+    flex-basis: 20%;
+  }
+  
+  #about .bottom p{
+    flex-basis: 25%;
+    margin-left: 20%;
+    font-size: 12px;
+  }
+  
+  #about .bottom .button{
+    right: 0;
+    bottom: 0;
+    padding: 20px 40px;
+    background-color: #f71e3a;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  #about .bottom .button:hover{
+    border: 1px solid black;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;  
+  }
 /* / second section */
 
 /* third section */
@@ -313,7 +313,6 @@
 
 #project .title-box{
   margin: 40px 0;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -327,12 +326,11 @@
   margin-left: 10px;
   background-color: #36354c;
   height: 70px; 
-  cursor: pointer;
 }
 
 #project .title-box .back-forward img:nth-child(1):hover,
 #project .title-box .back-forward img:nth-child(2):hover{
-  border: 4px solid black;
+  border: 1px solid black;
   background-color: #35ffbf;
   transition-duration: 0.1s;
   transition-timing-function: linear;
@@ -340,13 +338,11 @@
 
 #project .image-container{
   margin-bottom: 100px;
-  display: flex;
   justify-content: space-between;
 }
 
 #project .image-container .image-box{
   flex-basis: 32%;
-  position: relative;
 }
 
 #project .image-container .image-box img{
@@ -358,13 +354,11 @@
   height: 102%;
   padding: 20px;
   background-color: rgba(219, 0, 0, 0.699);
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid black;
   text-transform: none;
-  display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -379,8 +373,6 @@
   height: 60px;
   font-size: 30px;
   background-color: black;
-  cursor: pointer;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
