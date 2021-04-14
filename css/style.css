@@ -264,7 +264,7 @@
   #about .bottom{
     height: 20%;
     flex-basis: 100%;
-    background-color: #35ffbf;
+    background-color: #39ffbf;
     justify-content: center;
     align-items: center;
   }
@@ -307,7 +307,7 @@
 #project span:first-of-type{
   display: inline-block;
   width: 50px;
-  border-bottom: 3px solid #35ffbf;
+  border-bottom: 3px solid #39ffbf;
   margin-right: 20px;
 }
 
@@ -331,7 +331,7 @@
 #project .title-box .back-forward img:nth-child(1):hover,
 #project .title-box .back-forward img:nth-child(2):hover{
   border: 1px solid black;
-  background-color: #35ffbf;
+  background-color: #39ffbf;
   transition-duration: 0.1s;
   transition-timing-function: linear;
 }
@@ -377,3 +377,107 @@
   align-items: center;
 }
 /* / third section */
+
+/* fourth section */
+#testimonial{
+  margin-bottom: 180px;
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#testimonial .container{
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#testimonial .top{
+  margin-left: 40%;
+  flex-basis: 50%;
+  justify-content: space-between;
+}
+
+#testimonial .top span:first-of-type{
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+#testimonial .top span:last-of-type{
+  width: 40px;
+  display: inline-block;
+  border-bottom: 3px solid #35ffbf;
+}
+
+#testimonial .title{
+  width: 30%;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: right;
+}
+
+#testimonial .content-box{
+  width: 95%;
+  padding-right: 5%;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+#testimonial .content-box .text-box{
+  height: 100%;
+  flex-basis: 32%;
+  color: black;
+}
+
+#testimonial .content-box .text-box p:first-of-type,
+#testimonial .content-box .text-box p:last-of-type{
+  margin: 0 40px;
+  color: gray;
+}
+
+#testimonial .content-box .text-box p:first-of-type{
+  margin-top: 40px;
+}
+
+#testimonial .content-box .text-box p:last-of-type{
+  margin-bottom: 70px;
+}
+
+#testimonial .content-box .text-box p:nth-child(2){
+  margin: 50px 40px 0 40px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#testimonial .content-box .text-box:first-of-type:hover{
+  background-image: url('../img/oliver-ragfelt-488196-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+#testimonial .content-box .text-box:first-of-type:hover p:first-of-type,
+#testimonial .content-box .text-box:first-of-type:hover p:last-of-type,
+#testimonial .content-box .text-box:nth-of-type(2):hover p:first-of-type,
+#testimonial .content-box .text-box:nth-of-type(2):hover p:last-of-type,
+#testimonial .content-box .text-box:last-of-type:hover p:first-of-type,
+#testimonial .content-box .text-box:last-of-type:hover p:last-of-type{
+  color: #fff;
+}
+
+#testimonial .content-box .text-box:nth-of-type(2):hover{
+  background-image: url('../img/12679.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+#testimonial .content-box .text-box:last-of-type:hover{
+  background-image: url('../img/oliver-ragfelt-488196-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+/* / fourth section */
