@@ -8,7 +8,7 @@ let app = new Vue ({
       'project',
       'services',
       'blog',
-      'contact'
+      'contact',
     ],
     /* / header e footer*/
     
