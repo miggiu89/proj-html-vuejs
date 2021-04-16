@@ -47,8 +47,6 @@ let app = new Vue ({
     ],
     itemIndex: null,
     
-    isHover: false,
-    position: ''
   },
   created() {
     this.imgSlot.forEach((element) => {
