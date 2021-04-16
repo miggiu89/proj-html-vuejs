@@ -11,7 +11,6 @@ let app = new Vue ({
       'contact',
     ],
     /* / header e footer*/
-    
     activeImages: [],
     counterImg: 1,
     imgSlot: [
@@ -36,21 +35,21 @@ let app = new Vue ({
         counter: 2
       },
       {
-        source: 'img/SPONSORSHIPcover.jpg',
-        name: 'sponsorship',
+        source: 'img/DRYcover.jpg',
+        name: 'dry',
         counter: 2
       },
       {
-        source: 'img/DRYcover.jpg',
-        name: 'dry',
+        source: 'img/SPONSORSHIPcover.jpg',
+        name: 'sponsorship',
         counter: 2
       }
     ],
     itemIndex: null,
+    
     isHover: false,
     position: ''
   },
-
   created() {
     this.imgSlot.forEach((element) => {
       if (element.counter == 1) {
@@ -86,3 +85,6 @@ let app = new Vue ({
     
   }
 });
+
+
+ 
